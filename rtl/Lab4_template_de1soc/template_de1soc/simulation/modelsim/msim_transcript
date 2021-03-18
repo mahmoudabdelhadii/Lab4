@@ -1,0 +1,64 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ksatask2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc {C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:27:05 on Mar 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc" C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v 
+# -- Compiling module s_memory
+# 
+# Top level modules:
+# 	s_memory
+# End time: 17:27:05 on Mar 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc {C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/SevenSegmentDisplayDecoder.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:27:05 on Mar 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc" C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/SevenSegmentDisplayDecoder.v 
+# -- Compiling module SevenSegmentDisplayDecoder
+# 
+# Top level modules:
+# 	SevenSegmentDisplayDecoder
+# End time: 17:27:05 on Mar 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc {C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/ksatask2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:27:05 on Mar 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc" C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/ksatask2.sv 
+# -- Compiling module ksatask2
+# ** Error: C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/ksatask2.sv(71): (vlog-2730) Undefined variable: 'secret_key'.
+# 
+# ** Error: C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/ksatask2.sv(75): (vlog-2730) Undefined variable: 'modulo'.
+# 
+# ** Error: C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/ksatask2.sv(79): (vlog-2388) 'modulo' already declared in this scope (ksatask2).
+# 
+# ** Error: C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/ksatask2.sv(80): (vlog-2388) 'secret_key' already declared in this scope (ksatask2).
+# 
+# End time: 17:27:05 on Mar 16,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera/14.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./ksatask2_run_msim_rtl_verilog.do line 10
+# C:/altera/14.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc {C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/..."
+vsim work.s_memory
+# vsim -gui "+altera" -l msim_transcript -do "ksatask2_run_msim_rtl_verilog.do" 
+# Start time: 17:27:23 on Mar 16,2021
+# Loading work.s_memory
+# ** Error: (vsim-3033) C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v(63): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /s_memory
+#         Searched libraries:
+#             C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/simulation/modelsim/rtl_work
+# Error loading design

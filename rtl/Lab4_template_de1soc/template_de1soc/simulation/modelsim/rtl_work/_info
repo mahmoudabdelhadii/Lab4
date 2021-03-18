@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/simulation/modelsim
+vs_memory
+Z1 !s110 1615940825
+!i10b 1
+!s100 BjRR>bb68YbUSj33Bj_^]0
+IzV@@l7<UHAkdKc47Z<TaE3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1615855515
+8C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v
+FC:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v
+L0 40
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1615940825.394000
+!s107 C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc|C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/s_memory.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc
+vSevenSegmentDisplayDecoder
+R1
+!i10b 1
+!s100 04cdEA1ld]g_`l4zO2j1S0
+I=cdgmQZ4L7eIoa96S3;571
+R2
+R0
+w1615762444
+8C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/SevenSegmentDisplayDecoder.v
+FC:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/SevenSegmentDisplayDecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1615940825.551000
+!s107 C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/SevenSegmentDisplayDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc|C:/Users/Mahmoud/Desktop/CPEN311/Lab4/rtl/Lab4_template_de1soc/template_de1soc/SevenSegmentDisplayDecoder.v|
+!i113 1
+R4
+R5
+n@seven@segment@display@decoder

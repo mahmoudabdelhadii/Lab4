@@ -1,0 +1,29 @@
+module ksa(CLOCK_50, KEY, SW, LEDR, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0);
+
+input CLOCK_50;
+input [3:0] KEY;
+input [9:0] SW;
+output [9:0] LEDR;
+output [6:0] HEX5, HEX4, HEX3, HEX2, HEX1, HEX0;
+
+//hex display inputs
+reg [3:0]inHEX0;
+reg [3:0]inHEX1;
+reg [3:0]inHEX2;
+reg [3:0]inHEX3;
+reg [3:0]inHEX4;
+reg [3:0]inHEX5;
+//reset
+assign reset = ~KEY[3];
+
+//Seven Segment 
+SevenSegmentDisplayDecoder U0(HEX0, inHEX0);
+SevenSegmentDisplayDecoder U1(HEX1, inHEX1);
+SevenSegmentDisplayDecoder U2(HEX2, inHEX2);
+SevenSegmentDisplayDecoder U3(HEX3, inHEX3);
+SevenSegmentDisplayDecoder U4(HEX4, inHEX4);
+SevenSegmentDisplayDecoder U5(HEX5, inHEX5);
+
+
+endmodule
+
