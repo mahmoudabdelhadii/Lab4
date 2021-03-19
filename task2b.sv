@@ -519,7 +519,7 @@ end
             task2b_write_decrypted_message2: begin
                 wren_d <= 1'b0;
                 state <=task2b_inc1;
-            end
+            end 
 
             task2b_inc1: begin
                 if (k == 8'd31) begin state <= task2b_done ; 
